@@ -1,0 +1,45 @@
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+bin/
+lib/
+share/
+
+# Python compiler & caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Jupyter Notebook temporary files
+*checkpoint.ipynb
+.ipynb_checkpoints
+
+# Trained models (exclude .gitkeep to keep directory structure)
+models/*
+!models/.gitkeep
+
+# MLflow experiments and local runs
+mlruns/
+mlflow/mlruns/
+mlflow/mlruns.db
+.mlflow/
+
+# Data directories (exclude .gitkeep to keep directory structure)
+data/raw/*
+!data/raw/.gitkeep
+data/intermediate/*
+!data/intermediate/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# System files & IDEs
+.DS_Store
+.vscode/
+.idea/
+*.log
